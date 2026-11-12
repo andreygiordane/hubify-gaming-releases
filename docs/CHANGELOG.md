@@ -25,6 +25,11 @@ Os arquivos de cada versão estão em [Releases](https://github.com/andreygiorda
 - **Arrastar e soltar membros** entre canais de voz e de palco (nova permissão **Mover membros**).
 - Banimento temporário expira sozinho; o Moderador padrão agora também pode banir.
 
+**Convites**
+- **Cada link de convite vale de 5 a 10 entradas** e depois expira (não existe mais link ilimitado). O uso é contado no cadastro.
+- **Saldo de convites por pessoa** (3 para contas novas): criar link, gerar link novo ou criar comunidade gasta 1. Quando acabam, é preciso aguardar novos convites serem lançados.
+- A administração (Master) pode **lançar novos convites** para todas as contas.
+
 **Voz**
 - A dica do ping separa **"até o servidor"** de **"entre jogadores"** e mostra se a conexão é **direta** ou **por retransmissão**.
 

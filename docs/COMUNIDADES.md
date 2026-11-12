@@ -57,11 +57,17 @@ Quem tem cargo mais alto gerencia quem tem cargo mais baixo, nunca o contrário.
 
 ## Convites
 
-- **Link ou código**, **permanente** ou **temporário** (com validade e número máximo de usos).
-- Para enviar a uma pessoa específica, use **Convidar amigo**: ela recebe um **cartão de convite** na conversa direta, de **uso único** e curto prazo.
-- **Gerar um código novo invalida o anterior na hora.** Use isso se um link vazou.
+Convidar tem regras simples para manter o Hubify Gaming seguro durante o beta:
 
-Quem recebe o convite precisa de conta no Hubify Gaming; o cadastro também só acontece por convite ([Primeiros passos](COMECANDO.md)).
+- **Cada link vale de 5 a 10 entradas.** Quem cria escolhe quantas (5, 6, 7, 8, 9 ou 10; o padrão é 10). Cada pessoa que entra pelo link (ou se cadastra com ele) conta **1 uso**. Quando os usos acabam, o link **expira** e não funciona mais.
+- **Cada pessoa tem um saldo de convites.** Criar um link, gerar um link principal novo ou criar uma comunidade **gasta 1 convite**. Contas novas começam com **3 convites**.
+- **Se os seus convites acabarem**, é preciso **aguardar novos convites serem lançados** pela administração da plataforma. A tela de convites mostra quantos você ainda tem.
+- **Não existe mais link ilimitado.** Todo link tem número máximo de entradas, inclusive o **link principal** da comunidade.
+- **Cartão de convite** (botão *Convidar amigo*): serve para quem **já tem conta**, vale para **uma pessoa** e por até 10 minutos. Ele **não** serve para criar conta nova e não gasta o seu saldo.
+- Você vê, para cada link, **quantas entradas já foram usadas** (por exemplo, 3/10) e se ele já está **esgotado**.
+- **Gerar um código novo invalida o anterior na hora** (e gasta 1 convite). Use isso se um link vazou.
+
+Quem recebe o convite precisa de conta no Hubify Gaming; o cadastro também só acontece por convite ([Primeiros passos](COMECANDO.md)). O uso do link é contado **no momento do cadastro**, e quem acabou de se cadastrar por um link **não é contado de novo** ao entrar na comunidade.
 
 ## Moderação
 

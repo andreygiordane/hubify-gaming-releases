@@ -12,7 +12,7 @@ O Hubify Gaming é **somente por convite**: não existe "criar conta" aberto. Pe
 https://hubify.site/?convite=CÓDIGO
 ```
 
-Também vale um **código** avulso (o link já o traz embutido). Convites podem ter validade e limite de usos; se o seu não funcionar, peça outro.
+Também vale um **código** avulso (o link já o traz embutido). **Cada link vale de 5 a 10 cadastros** e depois expira; se o seu não funcionar, é porque já foi usado o máximo de vezes. Peça outro link a quem convidou.
 
 ## 2. Crie a conta
 

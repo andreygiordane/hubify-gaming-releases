@@ -10,7 +10,7 @@ Os instaladores ficam na página de **[Releases](https://github.com/andreygiorda
 | Android | `Hubify-Gaming-X.Y.Z.apk` | [Android](#android) |
 | iPhone e iPad | sem instalador (navegador) | [iPhone e iPad](#iphone-e-ipad) |
 | macOS (Apple Silicon e Intel) | `Hubify-Gaming-X.Y.Z-mac-arm64.dmg` / `-mac-x64.dmg` | [macOS](#macos) |
-| Linux (x64) | `Hubify-Gaming-X.Y.Z-linux-x86_64.AppImage` ou `-linux-amd64.deb` | [Linux](#linux) |
+| Linux (x64) | `Hubify-Gaming-X.Y.Z-linux-amd64.deb` (Mint, Ubuntu, Debian) ou `-linux-x86_64.AppImage` | [Linux](#linux) |
 
 ## Windows
 
@@ -67,29 +67,39 @@ Notificações no iPhone exigem **iOS 16.4 ou mais novo** e o app adicionado à 
 
 ## Linux
 
-Disponível para **x64** (a maioria dos computadores). Escolha um formato:
+Disponível para **x64** (a maioria dos computadores).
 
-**AppImage** (funciona na maioria das distribuições, sem instalar):
+### Linux Mint, Ubuntu, Debian e derivados: arquivo `.deb` (recomendado)
+
+1. Baixe o `Hubify-Gaming-X.Y.Z-linux-amd64.deb`.
+2. **Clique duas vezes** no arquivo. Abre o **Instalador de pacotes** (GDebi ou Gerenciador de Programas): clique em **Instalar** e digite a sua senha.
+3. Abra o **Hubify Gaming** pelo menu de aplicativos (procure por "Hubify"), na categoria **Internet** ou **Jogos**. Se não aparecer na hora, **saia e entre** na sessão (ou reinicie o painel). Também abre pelo terminal com o comando `hubify-gaming`.
+
+Funciona no **Linux Mint 21 e 22** (testado a instalação e a abertura nas bases Ubuntu 22.04 e 24.04). As bibliotecas necessárias são instaladas automaticamente.
+
+Prefere o terminal?
+
+```bash
+sudo apt install ./Hubify-Gaming-X.Y.Z-linux-amd64.deb
+```
+
+### Outras distribuições: AppImage
+
+Dá para usar sem instalar: no gerenciador de arquivos, clique com o botão direito no arquivo → **Propriedades → Permissões → Permitir execução** e clique duas vezes. Ou:
 
 ```bash
 chmod +x Hubify-Gaming-X.Y.Z-linux-x86_64.AppImage
 ./Hubify-Gaming-X.Y.Z-linux-x86_64.AppImage
 ```
 
-Se não abrir, instale o **FUSE 2** (`libfuse2` no Ubuntu/Debian: `sudo apt install libfuse2`; no Ubuntu 24.04, `libfuse2t64`). O AppImage roda com o sandbox do Chromium desligado, por limitação do formato; o `.deb` não precisa disso.
+Se não abrir, instale o **FUSE 2** (`sudo apt install libfuse2`; no Ubuntu 24.04, `libfuse2t64`). O AppImage roda com o sandbox do Chromium desligado, por limitação do formato; o `.deb` não precisa disso.
 
-**.deb** (Ubuntu, Debian, Mint, Pop!_OS...):
-
-```bash
-sudo apt install ./Hubify-Gaming-X.Y.Z-linux-amd64.deb
-```
-
-**Limites no Linux:**
+### Limites no Linux
 
 - O *apertar para falar* global funciona em **X11**; em **Wayland** o sistema pode impedir (o atalho vale com o app em foco).
 - A transmissão de tela em **Wayland** depende do portal do sistema e pode variar por distribuição.
 - Sem reconhecimento automático de jogo e música, sem áudio do sistema na transmissão e sem instalação silenciosa de atualização (o app avisa e abre o download).
-- Testado na compilação, mas **ainda com poucos testes em distribuições reais**: relatos ajudam muito.
+- App novo, em **beta**: [abra uma issue](https://github.com/andreygiordane/hubify-gaming-releases/issues/new/choose) dizendo a distribuição e a versão se algo falhar.
 
 ## Verificar o arquivo (SHA-256)
 
@@ -117,6 +127,6 @@ Se o valor for **diferente**, não instale: apague o arquivo e baixe de novo, so
 - **Windows:** Configurações → Aplicativos → *Hubify Gaming* → Desinstalar.
 - **Android:** toque e segure o ícone → Desinstalar.
 - **macOS:** arraste o app de Aplicativos para a Lixeira.
-- **Linux:** apague o AppImage, ou `sudo apt remove hubify-gaming-desktop` se instalou o `.deb`.
+- **Linux:** pelo Gerenciador de Programas, ou `sudo apt remove hubify-gaming-desktop` se instalou o `.deb`; no AppImage, apague o arquivo.
 
 Suas comunidades, mensagens e amigos ficam na sua conta (no servidor), não no aplicativo. Para apagar a conta e os dados, veja [Privacidade](PRIVACIDADE.md#seus-direitos).

@@ -16,6 +16,12 @@ Apps para **Windows**, **macOS**, **Linux** e **Android**, além de **qualquer n
 **Tem app na App Store ou na Google Play?**
 Ainda não. No Android, o `.apk` é baixado desta página; no macOS e no Linux, o `.dmg`/`.AppImage`/`.deb` também; no iPhone e iPad, use a versão online no Safari ([guia](INSTALACAO.md#iphone-e-ipad)).
 
+**Por que meu link de convite parou de funcionar?**
+Cada link vale de **5 a 10 entradas** e depois expira. Quem convidou pode gerar outro, desde que ainda tenha convites. Se os convites dela acabaram, é preciso **aguardar novos convites serem lançados**.
+
+**Quantos convites eu tenho?**
+Contas novas começam com 3. Veja o seu saldo em *Configurações da comunidade → Convites*. Criar um link ou uma comunidade gasta 1.
+
 **Por que só por convite?**
 Para manter as comunidades seguras e evitar contas em massa. Quem já está na plataforma gera um link de convite.
 

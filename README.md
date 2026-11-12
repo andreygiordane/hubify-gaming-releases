@@ -37,7 +37,7 @@ Canais de texto, voz e palco, apertar para falar, transmissão do jogo em até 1
 | **iPhone e iPad** | Abra [hubify.site/entrar](https://hubify.site/entrar) no Safari | [Usar no iPhone/iPad](docs/INSTALACAO.md#iphone-e-ipad) |
 | **Navegador** | [hubify.site/entrar](https://hubify.site/entrar) | Nada para instalar |
 | **macOS** | [`.dmg`](https://github.com/andreygiordane/hubify-gaming-releases/releases/latest) (Apple Silicon e Intel) | [Instalar no macOS](docs/INSTALACAO.md#macos) |
-| **Linux** | [`.AppImage` ou `.deb`](https://github.com/andreygiordane/hubify-gaming-releases/releases/latest) | [Instalar no Linux](docs/INSTALACAO.md#linux) |
+| **Linux** | [`.deb`](https://github.com/andreygiordane/hubify-gaming-releases/releases/latest) (Mint, Ubuntu, Debian: dois cliques) ou `.AppImage` | [Instalar no Linux](docs/INSTALACAO.md#linux) |
 
 Este repositório guarda **só os instaladores e a documentação** (o código-fonte é privado). Confira a integridade do arquivo com o `SHA256SUMS.txt` de cada versão: [como verificar](docs/INSTALACAO.md#verificar-o-arquivo-sha-256).
 
