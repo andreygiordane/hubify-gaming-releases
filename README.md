@@ -63,6 +63,15 @@ certutil -hashfile Hubify-Gaming-Setup-1.2.0.exe SHA256
   </tr>
 </table>
 
+### O e-mail de verificação
+
+<table>
+  <tr>
+    <td width="60%"><img src="imagens/13-email-convite.png" alt="E-mail com o código de verificação"></td>
+    <td width="40%" valign="top"><img src="imagens/14-email-convite-mobile.png" alt="O mesmo e-mail no celular" width="260"><br><sub>Banner, código em destaque, passo a passo e aviso de segurança. Funciona em qualquer cliente de e-mail, no computador e no celular.</sub></td>
+  </tr>
+</table>
+
 ### Recursos
 - **Comunidades** públicas ou privadas, com capa, ícone, **convites** (permanentes ou temporários; gerar um novo código invalida o anterior na hora) e **cargos e permissões**.
 - **Canais de texto, voz e palco**, com **categorias de verdade** (renomeie, crie e apague todas) e **arrastar e soltar** no mouse e no toque. Menções com `@`, figurinhas, salas privadas ou com senha, chat em toda sala de voz.
