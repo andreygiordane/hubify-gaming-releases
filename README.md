@@ -13,6 +13,8 @@ Canais de texto, voz e palco, apertar para falar, transmissão do jogo em até 1
 ![Status](https://img.shields.io/badge/status-BETA-f59e0b?style=flat-square)
 ![Windows](https://img.shields.io/badge/Windows-.exe-0b0b16?style=flat-square&logo=windows&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-.apk-0b0b16?style=flat-square&logo=android&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-.dmg-0b0b16?style=flat-square&logo=apple&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-AppImage%20%7C%20deb-0b0b16?style=flat-square&logo=linux&logoColor=white)
 ![iOS](https://img.shields.io/badge/iPhone%20e%20iPad-navegador-0b0b16?style=flat-square&logo=apple&logoColor=white)
 ![E2EE](https://img.shields.io/badge/DMs-ponta%20a%20ponta-8b5cf6?style=flat-square)
 ![2FA](https://img.shields.io/badge/2FA-opcional-8b5cf6?style=flat-square)
@@ -34,7 +36,8 @@ Canais de texto, voz e palco, apertar para falar, transmissão do jogo em até 1
 | **Android** | [`Hubify-Gaming-X.Y.Z.apk`](https://github.com/andreygiordane/hubify-gaming-releases/releases/latest) | [Instalar no Android](docs/INSTALACAO.md#android) |
 | **iPhone e iPad** | Abra [hubify.site/entrar](https://hubify.site/entrar) no Safari | [Usar no iPhone/iPad](docs/INSTALACAO.md#iphone-e-ipad) |
 | **Navegador** | [hubify.site/entrar](https://hubify.site/entrar) | Nada para instalar |
-| **macOS e Linux** | Em preparação | [Status](docs/INSTALACAO.md#macos-e-linux) |
+| **macOS** | [`.dmg`](https://github.com/andreygiordane/hubify-gaming-releases/releases/latest) (Apple Silicon e Intel) | [Instalar no macOS](docs/INSTALACAO.md#macos) |
+| **Linux** | [`.AppImage` ou `.deb`](https://github.com/andreygiordane/hubify-gaming-releases/releases/latest) | [Instalar no Linux](docs/INSTALACAO.md#linux) |
 
 Este repositório guarda **só os instaladores e a documentação** (o código-fonte é privado). Confira a integridade do arquivo com o `SHA256SUMS.txt` de cada versão: [como verificar](docs/INSTALACAO.md#verificar-o-arquivo-sha-256).
 

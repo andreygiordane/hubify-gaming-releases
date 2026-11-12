@@ -9,7 +9,8 @@ Os instaladores ficam na página de **[Releases](https://github.com/andreygiorda
 | Windows 10/11 | `Hubify-Gaming-Setup-X.Y.Z.exe` | [Windows](#windows) |
 | Android | `Hubify-Gaming-X.Y.Z.apk` | [Android](#android) |
 | iPhone e iPad | sem instalador (navegador) | [iPhone e iPad](#iphone-e-ipad) |
-| macOS e Linux | em preparação | [macOS e Linux](#macos-e-linux) |
+| macOS (Apple Silicon e Intel) | `Hubify-Gaming-X.Y.Z-mac-arm64.dmg` / `-mac-x64.dmg` | [macOS](#macos) |
+| Linux (x64) | `Hubify-Gaming-X.Y.Z-linux-x86_64.AppImage` ou `-linux-amd64.deb` | [Linux](#linux) |
 
 ## Windows
 
@@ -48,11 +49,47 @@ Ainda **não existe app na App Store**. Por enquanto, use a versão online, que 
 
 Notificações no iPhone exigem **iOS 16.4 ou mais novo** e o app adicionado à Tela de Início. Em outros navegadores do iPhone, use o Safari para instalar.
 
-## macOS e Linux
+## macOS
 
-Estamos preparando clientes para **macOS** e **Linux**. Enquanto isso, o Hubify Gaming funciona **normalmente no navegador** nesses sistemas: [hubify.site/entrar](https://hubify.site/entrar).
+1. Baixe o arquivo certo para o seu Mac na [última versão](https://github.com/andreygiordane/hubify-gaming-releases/releases/latest):
+   - **Apple Silicon** (M1, M2, M3, M4...): `Hubify-Gaming-X.Y.Z-mac-arm64.dmg`
+   - **Intel**: `Hubify-Gaming-X.Y.Z-mac-x64.dmg`
+   - Não sabe qual é? Menu  → **Sobre este Mac**: se aparecer *Chip Apple M…*, é Apple Silicon; se aparecer *Processador Intel*, é Intel.
+   - Também há `.zip` de cada um, se preferir não usar o `.dmg`.
+2. Abra o `.dmg` e **arraste o Hubify Gaming para Aplicativos**.
+3. **Primeira abertura:** o app **não é notarizado pela Apple** (isso exige uma conta de desenvolvedor paga). Por isso o macOS pode dizer que não consegue verificá-lo:
+   - Clique com o **botão direito** no app → **Abrir** → **Abrir**. Ou:
+   - **Ajustes do Sistema → Privacidade e Segurança → Abrir mesmo assim.**
+   - Se disser que o app está **"danificado"**, rode no Terminal: `xattr -dr com.apple.quarantine "/Applications/Hubify Gaming.app"`.
+4. **Permissões:** o macOS pede **Microfone** (voz) e, para transmitir, **Gravação de Tela**. Para o *apertar para falar* global, ative o app em **Privacidade e Segurança → Monitoramento de Entrada** (e **Acessibilidade**, se o sistema pedir).
 
-Diferenças esperadas quando os apps chegarem (por limites dos sistemas): sem *apertar para falar global* e sem reconhecimento automático de jogo e música, que hoje existem só no Windows.
+**Limites no macOS:** sem reconhecimento automático de jogo e música (só no Windows), sem áudio do sistema na transmissão e **sem instalação silenciosa de atualização** (o app avisa e abre o download). O app é novo e está em **beta**: se algo falhar, [abra uma issue](https://github.com/andreygiordane/hubify-gaming-releases/issues/new/choose) dizendo o modelo do Mac e a versão do macOS.
+
+## Linux
+
+Disponível para **x64** (a maioria dos computadores). Escolha um formato:
+
+**AppImage** (funciona na maioria das distribuições, sem instalar):
+
+```bash
+chmod +x Hubify-Gaming-X.Y.Z-linux-x86_64.AppImage
+./Hubify-Gaming-X.Y.Z-linux-x86_64.AppImage
+```
+
+Se não abrir, instale o **FUSE 2** (`libfuse2` no Ubuntu/Debian: `sudo apt install libfuse2`; no Ubuntu 24.04, `libfuse2t64`). O AppImage roda com o sandbox do Chromium desligado, por limitação do formato; o `.deb` não precisa disso.
+
+**.deb** (Ubuntu, Debian, Mint, Pop!_OS...):
+
+```bash
+sudo apt install ./Hubify-Gaming-X.Y.Z-linux-amd64.deb
+```
+
+**Limites no Linux:**
+
+- O *apertar para falar* global funciona em **X11**; em **Wayland** o sistema pode impedir (o atalho vale com o app em foco).
+- A transmissão de tela em **Wayland** depende do portal do sistema e pode variar por distribuição.
+- Sem reconhecimento automático de jogo e música, sem áudio do sistema na transmissão e sem instalação silenciosa de atualização (o app avisa e abre o download).
+- Testado na compilação, mas **ainda com poucos testes em distribuições reais**: relatos ajudam muito.
 
 ## Verificar o arquivo (SHA-256)
 
@@ -69,8 +106,8 @@ certutil -hashfile Hubify-Gaming-Setup-X.Y.Z.exe SHA256
 **Linux / macOS:**
 
 ```bash
-sha256sum Hubify-Gaming-X.Y.Z.apk      # Linux
-shasum -a 256 Hubify-Gaming-X.Y.Z.apk  # macOS
+sha256sum Hubify-Gaming-X.Y.Z-linux-x86_64.AppImage      # Linux
+shasum -a 256 Hubify-Gaming-X.Y.Z-mac-arm64.dmg          # macOS
 ```
 
 Se o valor for **diferente**, não instale: apague o arquivo e baixe de novo, somente desta página.
@@ -79,5 +116,7 @@ Se o valor for **diferente**, não instale: apague o arquivo e baixe de novo, so
 
 - **Windows:** Configurações → Aplicativos → *Hubify Gaming* → Desinstalar.
 - **Android:** toque e segure o ícone → Desinstalar.
+- **macOS:** arraste o app de Aplicativos para a Lixeira.
+- **Linux:** apague o AppImage, ou `sudo apt remove hubify-gaming-desktop` se instalou o `.deb`.
 
 Suas comunidades, mensagens e amigos ficam na sua conta (no servidor), não no aplicativo. Para apagar a conta e os dados, veja [Privacidade](PRIVACIDADE.md#seus-direitos).

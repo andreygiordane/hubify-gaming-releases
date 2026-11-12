@@ -17,6 +17,17 @@ Os arquivos de cada versão estão em [Releases](https://github.com/andreygiorda
 - **Windows:** **Atualizar agora** baixa, confere o SHA-256, **instala em silêncio**, **reabre o app** e **apaga o instalador**.
 - **Android:** o app baixa, confere o SHA-256, entrega ao instalador do sistema e **apaga o APK**. A primeira vez pede uma permissão do Android; em Android 12+ as seguintes costumam passar sem perguntar.
 
+**macOS e Linux**
+- **Novos apps:** macOS (`.dmg` para Apple Silicon e Intel, e `.zip`) e Linux (`.AppImage` e `.deb`). Beta: ainda com poucos testes em computadores reais. Veja [Instalação](INSTALACAO.md#macos).
+
+**Comunidades**
+- **Clique no membro** para abrir o perfil: todos veem *Mensagem* e *Adicionar*; **Moderador, Admin e Dono** também veem **Mover, Expulsar, Banir temporariamente (1 hora a 30 dias) e Banir permanente**.
+- **Arrastar e soltar membros** entre canais de voz e de palco (nova permissão **Mover membros**).
+- Banimento temporário expira sozinho; o Moderador padrão agora também pode banir.
+
+**Voz**
+- A dica do ping separa **"até o servidor"** de **"entre jogadores"** e mostra se a conexão é **direta** ou **por retransmissão**.
+
 **Interface**
 - **Apertar para falar nas configurações de voz** (Configurações → Voz e vídeo): ligar, **gravar o atalho** e ajustar o **atraso após soltar**.
 - **Telas de entrada e de criar conta redesenhadas**, com painel de marca em telas largas, convite em destaque e passo do código da 2FA.

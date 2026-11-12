@@ -11,10 +11,10 @@ Hoje o acesso é por convite e não há cobrança.
 Está em **beta**: já dá para usar no dia a dia, mas ainda estamos trabalhando em melhorias e novidades. Podem aparecer falhas e mudanças pelo caminho. Relatar problemas ajuda a corrigir mais rápido ([abra uma issue](https://github.com/andreygiordane/hubify-gaming-releases/issues/new/choose)).
 
 **Em quais plataformas funciona?**
-Windows (app), Android (app) e **qualquer navegador moderno** (inclusive iPhone, iPad, macOS e Linux). Clientes para macOS e Linux estão em preparação.
+Apps para **Windows**, **macOS**, **Linux** e **Android**, além de **qualquer navegador moderno** (inclusive iPhone e iPad). Os apps de macOS e Linux são novos e estão em beta.
 
 **Tem app na App Store ou na Google Play?**
-Ainda não. No Android, o `.apk` é baixado desta página; no iPhone e iPad, use a versão online no Safari ([guia](INSTALACAO.md#iphone-e-ipad)).
+Ainda não. No Android, o `.apk` é baixado desta página; no macOS e no Linux, o `.dmg`/`.AppImage`/`.deb` também; no iPhone e iPad, use a versão online no Safari ([guia](INSTALACAO.md#iphone-e-ipad)).
 
 **Por que só por convite?**
 Para manter as comunidades seguras e evitar contas em massa. Quem já está na plataforma gera um link de convite.
@@ -64,6 +64,12 @@ Não. O **status automático** (opcional) lê **só** o nome do programa em exec
 O app não lê a memória nem injeta código em jogos, e só observa janelas e processos como qualquer programa comum. Ainda assim, cada anti-cheat tem as próprias regras: se tiver dúvida sobre um jogo específico, desative o status automático.
 
 ## Uso
+
+**O macOS diz que o app não pode ser aberto. E agora?**
+O app não é notarizado pela Apple (exige conta paga). Clique com o botão direito → **Abrir** → **Abrir**. Passo a passo em [Instalação](INSTALACAO.md#macos).
+
+**Como moderar membros (expulsar, banir, mover)?**
+Clique no membro para abrir o perfil: quem tem cargo de moderação vê as ações. [Detalhes](COMUNIDADES.md#moderação).
 
 **Como transmito meu jogo?**
 Entre em um canal de voz e use **Transmitir** (app do Windows e navegador). No Android não é possível transmitir. [Detalhes](VOZ-E-TRANSMISSAO.md#transmitir-o-jogo).

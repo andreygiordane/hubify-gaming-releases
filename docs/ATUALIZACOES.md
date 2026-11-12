@@ -47,7 +47,7 @@ Não há o que instalar: a versão online **atualiza sozinha**. Se algo parecer 
 
 ## macOS e Linux
 
-Os apps estão em preparação ([status](INSTALACAO.md#macos-e-linux)). No navegador, tudo funciona e atualiza sozinho.
+Nestes sistemas o app **avisa** quando há versão nova e, ao tocar em **Atualizar agora**, **abre o arquivo da versão nova no navegador** para você instalar (no macOS, arrastando o novo app por cima do antigo; no Linux, trocando o AppImage ou instalando o novo `.deb`). **Não há instalação silenciosa** porque o app ainda não é assinado/notarizado pela Apple e o Linux não tem um instalador único.
 
 ## Conferindo manualmente
 

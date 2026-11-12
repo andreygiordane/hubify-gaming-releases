@@ -65,9 +65,29 @@ Quem recebe o convite precisa de conta no Hubify Gaming; o cadastro também só 
 
 ## Moderação
 
-- **Remover mensagens**, **expulsar** e **banir** (conforme o cargo).
-- **Pedidos de transmissão**: quem quer assistir pede ao streamer; o pedido é um aviso temporário, que **não** entra no chat.
-- Em canais de palco, só quem foi chamado ao palco fala.
+Clique em **qualquer membro** (no painel de membros ou na lista de uma sala de voz) para abrir o **perfil** dele. O que aparece depende do seu cargo:
+
+| Quem você é | O que o perfil oferece |
+|---|---|
+| **Membro comum** | **Mensagem** e **Adicionar** (pedido de amizade). Nada de moderação. |
+| **Moderador, Admin ou Dono** | Tudo acima, mais uma área **Moderação** com as ações abaixo (só para pessoas de cargo **mais baixo** que o seu). |
+
+Ações de moderação:
+
+- **Mover para outro canal de voz:** escolha o canal na lista (ou **arraste**, veja abaixo).
+- **Expulsar:** a pessoa sai da comunidade, mas **pode voltar com um convite**.
+- **Banir temporariamente:** por **1 hora, 24 horas, 7 dias ou 30 dias**. A pessoa é removida, **não consegue voltar** durante esse tempo (nem com convite) e o banimento **termina sozinho**.
+- **Banir permanente:** a pessoa só volta se alguém a **desbanir**. Você pode informar um motivo (opcional).
+
+Regras de segurança: ninguém modera quem tem cargo **igual ou mais alto** que o seu, nem a si mesmo, e **o Dono nunca pode ser banido nem expulso**. Todas as ações ficam no **registro de auditoria** da comunidade.
+
+**Permissões por cargo:** *Expulsar e banir por tempo* e *Banir membros* e *Mover membros* são permissões separadas, que o Dono liga ou desliga em cada cargo (Configurações da comunidade → Cargos). O **Moderador padrão** de uma comunidade nova já vem com as três.
+
+### Arrastar membros entre canais de voz
+
+Quem tem a permissão **Mover membros** pode **arrastar** uma pessoa (do painel de membros ou da lista da sala de voz) e **soltar em outro canal de voz ou de palco**. A pessoa é movida na hora (o app dela troca de sala) e vê um aviso de que foi movida.
+
+Limites: só dá para mover quem **já está conectado a um canal de voz**; a pessoa precisa ter acesso ao canal de destino (e a sala não pode estar cheia). Canais de texto não recebem membros. No celular, use a opção **Mover para…** no perfil (arrastar é para mouse).
 
 Boas práticas: escreva regras em um canal `#regras`, use um canal de avisos só para a equipe e dê cargo de moderação a pessoas de confiança.
 
