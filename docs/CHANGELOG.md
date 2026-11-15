@@ -4,6 +4,29 @@
 
 Os arquivos de cada versão estão em [Releases](https://github.com/andreygiordane/hubify-gaming-releases/releases). Todas trazem `SHA256SUMS.txt`.
 
+## 1.12.0 · Marca nova, convite com prévia e transmissão reorganizada
+
+**Identidade nova**
+- O robozinho do Hubify virou o ícone do app (Windows, macOS, Linux e Android), do site e das figurinhas.
+- O bot oficial ganhou o mascote como avatar.
+
+**Convites com prévia**
+- O link de convite mostra a comunidade (capa, membros e quem está online) antes de entrar.
+- Sem conta: entre ou cadastre-se e você já cai direto na comunidade.
+
+**Transmissão no computador**
+- O vídeo se ajusta ao formato da tela, sem bordas pretas.
+- Faixa de quem transmite, lista de quem está na sala e chat da transmissão ao lado.
+
+**Celular e Android**
+- Botão Voltar visível na sala de voz; voltar arrastando da borda.
+- O voltar do Android não fecha mais o app (ele vai para segundo plano).
+- O app pede as permissões de notificações e microfone na primeira abertura.
+
+**Mais**
+- Escolha o toque das mensagens e das chamadas em Configurações > Notificações.
+- A foto de perfil é recortada no mesmo formato do avatar, sem bordas pretas.
+
 ## 1.5.0 · Segurança em dobro e atualização por dentro
 
 **Segurança**
