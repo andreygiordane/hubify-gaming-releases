@@ -83,8 +83,8 @@ Este repositório guarda **só os instaladores e a documentação** (o código-f
     <td width="50%"><img src="imagens/04-voz.png" alt="Sala de voz"><br><sub><b>Voz</b> em tempo real, com o jogo de cada pessoa ao lado do nome.</sub></td>
   </tr>
   <tr>
-    <td><img src="imagens/05-arrastar-canais.png" alt="Arrastar canais"><br><sub><b>Arraste e solte</b> canais entre categorias.</sub></td>
-    <td><img src="imagens/12-app-desktop.png" alt="App para Windows"><br><sub><b>App para Windows</b>: barra própria, bandeja do sistema e atualização automática.</sub></td>
+    <td><img src="imagens/05-transmissao.png" alt="Transmissão de tela com chat"><br><sub><b>Transmissão</b> do jogo em até 1080p/60 FPS, com o chat ao lado.</sub></td>
+    <td><img src="imagens/06-configuracoes.png" alt="Configurações"><br><sub><b>Configurações</b>: conta, segurança (2FA), voz e vídeo e privacidade.</sub></td>
   </tr>
 </table>
 
@@ -92,8 +92,8 @@ Este repositório guarda **só os instaladores e a documentação** (o código-f
   <tr>
     <td align="center" width="25%"><img src="imagens/08-mobile-comunidade.png" alt="Canais no celular"><br><sub>Canais</sub></td>
     <td align="center" width="25%"><img src="imagens/09-mobile-chat.png" alt="Chat no celular"><br><sub>Chat</sub></td>
-    <td align="center" width="25%"><img src="imagens/01-entrar.png" alt="Tela de entrada"><br><sub>Entrar</sub></td>
-    <td align="center" width="25%"><img src="imagens/11-mobile-atualizacao.png" alt="Aviso de atualização"><br><sub>Atualização</sub></td>
+    <td align="center" width="25%"><img src="imagens/10-mobile-voz.png" alt="Voz no celular"><br><sub>Voz</sub></td>
+    <td align="center" width="25%"><img src="imagens/11-mobile-transmissao.png" alt="Transmissão no celular"><br><sub>Transmissão</sub></td>
   </tr>
 </table>
 
