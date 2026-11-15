@@ -4,6 +4,14 @@
 
 Os arquivos de cada versão estão em [Releases](https://github.com/andreygiordane/hubify-gaming-releases/releases). Todas trazem `SHA256SUMS.txt`.
 
+## 1.12.1 · Ícone com o violeta original, bandeja e convites
+
+- Ícone do app com o violeta original do Hubify e o robozinho branco (Windows, macOS, Linux e Android).
+- Windows: na bandeja do sistema (perto do relógio) aparece só o robozinho branco, como nos outros apps.
+- Convites no estilo do Discord: a comunidade aparece em destaque, com a capa desfocada ao fundo.
+- Link permanente da comunidade oficial: https://hubify.site/?convite=HUBIFY
+- Assistindo a uma transmissão no computador, o chat da transmissão ocupa a lateral direita e o vídeo ganha mais espaço.
+
 ## 1.12.0 · Marca nova, convite com prévia e transmissão reorganizada
 
 **Identidade nova**
